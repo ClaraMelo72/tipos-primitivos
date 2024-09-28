@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./primeiraAtividade.js"></script>
+    <link rel="stylesheet" href="global.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1><a href="index.html">First Project</a></h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="./form.html">Form</a></li>
+                <li><a href="./calculator.html">Calculadora</a></li>
+                <li><a href="./areaCalculator.html">Calculadora de área</a></li>
+                <li><a href="./avarageCalculator.html">Calculadora de média</a></li>
+                <li><a href="./discountCalculator.html">Calculadora de desconto</a></li>
+                <li><a href="./irCaulculator.html">Calculadora de IR</a></li>
+                <li><a href="./currenceConverter.html">Conversor de Moedas</a></li>
+                <li><a href="./tempetureConversor.html">Conversor de temperatura</a></li>
+                <li><a href="./bmicalculator.html">Calculadora de IMC</a></li>
+            </ul>
+        </nav>
+    </div>
+<div class="content">
+    <h2>Calculadora de Imposto de Renda</h2>
+    <form class="form" id="taxForm" onsubmit="calculateTax(event)">
+        <div>
+            <label for="grossSalary">Salário Bruto:</label>
+            <input type="number" id="grossSalary" required>
+        </div>
+        <button type="submit">Calcular Imposto</button>
+    </form>
+    <div id="taxResult"></div>
+</div>
+    
+</body>
+<script src="primeiraAtividade.js"></script>
+</html>

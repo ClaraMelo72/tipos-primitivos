@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./primeiraAtividade.js"></script>
+    <link rel="stylesheet" href="global.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1><a href="index.html">First Project</a></h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="./form.html">Form</a></li>
+                <li><a href="./calculator.html">Calculadora</a></li>
+                <li><a href="./areaCalculator.html">Calculadora de área</a></li>
+                <li><a href="./avarageCalculator.html">Calculadora de média</a></li>
+                <li><a href="./discountCalculator.html">Calculadora de desconto</a></li>
+                <li><a href="./irCaulculator.html">Calculadora de IR</a></li>
+                <li><a href="./currenceConverter.html">Conversor de Moedas</a></li>
+                <li><a href="./tempetureConversor.html">Conversor de temperatura</a></li>
+                <li><a href="./bmicalculator.html">Calculadora de IMC</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+    <div class="content">
+        <h2>Form</h2>
+        <form class="form" id="form" onsubmit="greet(event)">
+            <div>
+                <label for="name">What is your name?</label>
+                <input name="name" id="name" placeholder="Write here you name." type="text" />
+            </div>
+            <div>
+                <label for="age">How old are you?</label>
+                <input name="age" id="age" placeholder="Write here how old you are." type="number"/>
+            </div>
+            
+            <div>
+                <label for="city">What is your city?</label>
+                <input name="city" id="city" placeholder="Write here how old you are." type="text"/>
+            </div>
+
+            <button type="submit">Greet me!</button>
+        </form>
+    </div>
+</body>
+</html>
