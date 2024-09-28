@@ -76,7 +76,7 @@ function calculateFinalPrice(event) {
     const finalPrice = originalPrice - discountAmount;
 
     
-    alert("O preço final do produto de R$" + originalPrice.toFixed(2) + " com desconto de " + discountPercentage.toFixed(2) + "% é de R$" + finalPrice.toFixed(2))
+    alert("O preço final do produto de R$" + originalPrice.toFixed(2) + " com desconto de " + discountPercentage + "% é de R$" + finalPrice.toFixed(2))
 }
 
 
