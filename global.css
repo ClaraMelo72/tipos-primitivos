@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+}
+
+.header h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #FFF;
+    height: 100%;
+    transition: color .4s;
+}
+
+.menu {
+    height: 100%;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    height: 100%;
+}
+
+ul > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: #FFF;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    height: 100%;
+    transition: color .4s;
+}
+
+a:hover {
+    color: #f07daa;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: 4px 2px 4px 2px gray;
+    background-color: #FFFFFF;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form > div label {
+    margin-bottom: 5px;
+}
+
+.form input {
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 5px;
+    box-shadow: 4px 2px 4px 2px gray;
+    margin-bottom: 15px;
+}
+
+.form button {
+    height: 42px;
+    background-color: #f07daa;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 2px 4px 2px gray;
+    color: white;
+    font-weight: bold;
+}
+
+#operation {
+    height: 42px;
+    box-shadow: 4px 2px 4px 2px gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #FFF;
+    padding: 0 5px;
+}
